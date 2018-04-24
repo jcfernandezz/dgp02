@@ -120,7 +120,8 @@ namespace winCompuertaGP
             // Verificar la conexión
             if (mainController.probarConexion())
             {
-                ActualizarStatus();
+                //ActualizarStatus();
+
                 // Recargar los datos del grid
                 filtrarPreFacturas();
             }
